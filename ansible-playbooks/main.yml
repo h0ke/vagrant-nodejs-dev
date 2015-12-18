@@ -7,11 +7,9 @@
   roles:
     - role: ansible-nginx
     - role: ansible-softwares
-    - role: ansible-mongodb
-    - role: DavidWittman.redis
     - role: ansible-nodejs
-    - role: ansible-nodejs-apps
+    - role: ansible-postgresql
+    # - role: ansible-nodejs-apps
       # apps:
       #   enabled:
-      #     - "/srv/myapp/"
-      #     - "/srv/anotherapp/"
+      #     - "/srv/pto-tracker/"
