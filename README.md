@@ -1,13 +1,12 @@
 # vagrant-nodejs-dev
 
-An ansible-based vagrant environment for kick-starting server-side nodejs application development with MongoDB, Redis and Nginx.
+An ansible-based vagrant environment for kick-starting server-side nodejs application development with PostgreSQL and Nginx.
 
 ## Usage
 
 ```
-git clone https://github.com/theasta/vagrant-nodejs-dev.git
+git clone https://github.com/h0ke/vagrant-nodejs-dev.git
 cd vagrant-nodejs-dev
-ansible-galaxy install DavidWittman.redis
 vagrant up
 ```
 
